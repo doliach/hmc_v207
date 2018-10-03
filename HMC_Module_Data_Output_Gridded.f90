@@ -313,8 +313,8 @@ contains
 	
         ! Dimension(s)
         call check( nf90_def_dim(iFileID, "time", NF90_UNLIMITED, iID_Dim_Time) )
-        call check( nf90_def_dim(iFileID, "south_north", iRows, iID_Dim_Rows) )
-        call check( nf90_def_dim(iFileID, "west_east", iCols, iID_Dim_Cols) )
+        call check( nf90_def_dim(iFileID, "west_east", iRows, iID_Dim_Rows) )
+        call check( nf90_def_dim(iFileID, "south_north", iCols, iID_Dim_Cols) )
         !------------------------------------------------------------------------------------------
 
         !------------------------------------------------------------------------------------------
